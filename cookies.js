@@ -1,14 +1,4 @@
 /**
- * Potential Fonts: all from google
- *
- * font-family: 'Lobster', cursive;
- * font-family: 'Lobster Two', cursive;
- * font-family: 'Nova Cut', cursive;
- * font-family: 'Oleo Script', cursive;
- * font-family: 'Pirata One', cursive;
- */
-
-/**
  * The block of code below runs on every page click
  * If the terms haven't been accepted yet and we aren't on the home page,
  * it will redirect us back to the home page
