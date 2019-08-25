@@ -8,35 +8,41 @@ body {
   font-family: "Merriweather", sans-serif;
   color: white;
   margin: 0;
+  font-size: 20px
+}
+
+#content {
+    margin: 0% 15%;
 }
 
 #Title {
   font-family: "Old London", cursive;
-  font-size: 6em;
+  font-size: 500%;
   padding: 0% 5%;
-  margin-bottom: 0.15em;
+  margin-bottom: 1%;
+  margin-top: 2.5%;
 }
 
 #subtitle {
   font-family: "Merriweather", serif;
   font-style: italic;
-  font-size: 2em;
+  font-size: 170%;
   padding: 0% 2%;
   margin-top: 0.1em;
 }
 
 #heading {
-  margin-bottom: 4em;
+  margin-bottom: 10%;
 }
 
 #Publications {
-  font-size: 2em;
+  font-size: 150%;
   font-style: italic;
   margin-bottom: 5px;
 }
 
 #publication-description {
-  font-size: 1.5em;
+  font-size: 120%;
   margin: 0px 8px 20px 8px;
 }
 
