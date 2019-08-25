@@ -16,7 +16,7 @@ if (!termsaccepted && notHomePage) {
 function setTermsAccepted() {
   setCookie("termsAccepted", "true");
   console.log("set the terms accepted");
-  /*window.location.href = "content.html";*/
+  window.location.href = "content.html";
 }
 
 /**
@@ -32,8 +32,9 @@ function setCookie(cname, cvalue) {
   var d = new Date();
   d.setTime(d.getTime() + expdays * 24 * 60 * 60 * 1000);
   var expires = "expires=" + d.toUTCString();
-  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-  console.log(document.cookie)
+  document.cookie =
+    cname + "=" + cvalue + ";" + expires + ";path=hanfordlampoon/";
+  console.log(document.cookie);
 }
 
 /**
@@ -43,7 +44,7 @@ function setCookie(cname, cvalue) {
  */
 function getCookie(cname) {
   var name = cname + "=";
-  console.log(document.cookie)
+  console.log(document.cookie);
   var decodedCookie = decodeURIComponent(document.cookie);
   var ca = decodedCookie.split(";");
   for (var i = 0; i < ca.length; i++) {
