@@ -5,14 +5,14 @@
 }
 
 body {
-  font-family: Oswald, sans-serif;
+  font-family: "Merriweather", sans-serif;
   color: white;
   margin: 0;
 }
 
 #Title {
   font-family: "Old London", cursive;
-  font-size: 3.5em;
+  font-size: 6em;
   padding: 0% 5%;
   margin-bottom: 0.15em;
 }
@@ -20,7 +20,7 @@ body {
 #subtitle {
   font-family: "Merriweather", serif;
   font-style: italic;
-  font-size: 1.5em;
+  font-size: 2em;
   padding: 0% 2%;
   margin-top: 0.1em;
 }
