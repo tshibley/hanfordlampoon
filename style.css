@@ -50,6 +50,10 @@ h6 {
   margin-bottom: 10%;
 }
 
+#heading-content {
+  margin-bottom: 3.5%;
+}
+
 #Publications {
   font-size: 150%;
   font-style: italic;
