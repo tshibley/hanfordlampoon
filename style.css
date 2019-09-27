@@ -78,6 +78,7 @@ h6 {
   max-width: 800px;
   width: 100%;
   height: auto;
+  background-color: rgb(255, 255, 255);
 }
 #site-description {
   text-align: right;
